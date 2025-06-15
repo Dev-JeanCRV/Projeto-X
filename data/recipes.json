@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "titulo": "Salada de Quinoa com Legumes",
+    "resumo": "Uma salada nutritiva e colorida, rica em proteínas e fibras.",
+    "imagem": "images/recipes/salada-quinoa.jpg",
+    "tempo": "25 min",
+    "calorias": 320,
+    "ingredientes": [
+      "1 xícara de quinoa",
+      "2 xícaras de caldo de legumes",
+      "1 abobrinha média em cubos"
+    ],
+    "passos": [
+      "Lave bem a quinoa em água corrente",
+      "Cozinhe a quinoa no caldo por 15 minutos",
+      "Corte todos os legumes em cubos pequenos"
+    ],
+    "substituicoes": {
+      "quinoa": "arroz integral ou bulgur",
+      "abobrinha": "berinjela ou chuchu"
+    }
+  }
+]
