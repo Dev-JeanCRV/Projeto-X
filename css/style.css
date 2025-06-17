@@ -1,0 +1,28 @@
+/* Cores e variáveis */
+:root {
+    --cor-principal: #2c5530;
+    --cor-secundaria: #4CAF50;
+    --cor-fundo: #f5f5f5;
+    --cor-texto: #333;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+/* Layout principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+

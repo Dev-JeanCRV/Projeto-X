@@ -1,0 +1,55 @@
+/* Logo */
+.logo-img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.main-nav a:hover, 
+.main-nav a.active {
+    background: rgba(255,255,255,0.2);
+}
+
+.login-btn {
+    background: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #45a049;
+}
